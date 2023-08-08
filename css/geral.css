@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+
+@media (max-width: 1200px) {
+  img {
+    display: block;
+    max-width: 100%;
+    object-fit: fill;
+    object-position: right bottom;
+  }
+}

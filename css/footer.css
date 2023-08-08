@@ -1,0 +1,82 @@
+footer {
+  margin: 0 64px;
+  border-top: 1px solid #b0e0d3;
+  font-family: "Nunito", sans-serif;
+  color: #1f1f1f;
+  font-size: 1rem;
+}
+
+.links-footer {
+  display: flex;
+  gap: 40px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.links-footer a {
+  color: #1f1f1f;
+  transition: .3s ease;
+}
+
+.links-footer a:hover {
+  color: #747474;
+}
+
+.links-footer a.ativo {
+  color: #1f1f1f;
+  font-weight: 700;
+}
+
+.links-imgs {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+footer > span:last-child {
+  color: #515151;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+svg {
+  stroke: #018762;
+  fill-opacity: #fff;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 0;
+  transition: ease-in;
+}
+
+svg path:hover {
+  stroke: #4dab91;
+  stroke-width: 4;
+  box-shadow: 0px 1px 1px 1px #a6d5c8;
+}
+
+/* Responsivo footer */
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.875rem;
+  }
+
+  .links-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+  }
+
+  .links-imgs {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  footer > span:last-child {
+    color: #515151;
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
+}
